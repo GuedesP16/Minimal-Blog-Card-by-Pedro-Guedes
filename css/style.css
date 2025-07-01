@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #FAFAF9;
+}
+
+#all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-div {
+  width: 368px;
+  margin-top: 164px;
+  padding: 16px 16px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 13px;
+}
+
+#card-image {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-image img {
+  border-radius: 13px;
+  height: 152px;
+  width: 336px;
+}
+
+#card-tag {
+  color: #7C19EE;
+  margin-bottom: 16px;
+}
+
+.tag {
+  background-color: #F2EAFD;
+  padding: 6px 16px;
+  border-radius: 13px;
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+
+#card-title {
+  font-size: 1.125rem;
+  color: #20293A;
+  margin-bottom: 6px;
+}
+
+#card-text {
+  color: #394150;
+  font-size: 0.875rem;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #E5EAF0;
+  margin-bottom: 20px;
+}
+
+#card-info {
+  display: grid;
+  color: #394150;
+  font-size: 0.75rem;
+}
